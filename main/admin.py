@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-# Создал Админку
+# Создал Админку и зарегали админку
 from .models import Category,Product
 
 @admin.register(Category) # декоратор
